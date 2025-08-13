@@ -13,7 +13,7 @@ export default function Home() {
     setError('')
     try {
       const jsonText = await postNumbers(numbers)
-      // pretty-print if valid json
+     
       try { setOutput(JSON.stringify(JSON.parse(jsonText), null, 2)) }
       catch { setOutput(jsonText) }
     } catch (err) {
