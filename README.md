@@ -1,5 +1,3 @@
-
-## **Frontend (React + Vite)**
 # 🌳 Binary Tree Builder Frontend
 
 A **React + Vite** single-page application (SPA) that interacts with the Binary Tree Builder backend.  
